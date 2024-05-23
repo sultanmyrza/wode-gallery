@@ -4,7 +4,16 @@
  */
 await import("./src/env.js");
 
+// NOTE: We can ignore typescript, eslint build and run them in separate github action to speed up builds.
+// You can notice that once you TS codebase grows.
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+};
 
 export default config;
