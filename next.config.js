@@ -8,6 +8,9 @@ await import("./src/env.js");
 // You can notice that once you TS codebase grows.
 /** @type {import("next").NextConfig} */
 const config = {
+  images: {
+    remotePatterns: [{ hostname: "utfs.io" }],
+  },
   typescript: {
     ignoreBuildErrors: true,
   },
