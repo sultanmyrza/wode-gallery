@@ -13,9 +13,9 @@
 - [x] Use Next/Image component
 - [x] Error management (w/ Sentry)
 - [x] Routing/image page (parallel route)
-- [ ] Delete button (w/ Server Actions)
+- [x] Delete button (w/ Server Actions)
 - [x] Analytics (posthog)
-- [ ] Ratelimiting
+- [x] Ratelimiting
 
 # Create T3 App
 
