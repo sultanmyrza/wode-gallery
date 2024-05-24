@@ -14,7 +14,7 @@
 - [x] Error management (w/ Sentry)
 - [x] Routing/image page (parallel route)
 - [ ] Delete button (w/ Server Actions)
-- [ ] Analytics (posthog)
+- [x] Analytics (posthog)
 - [ ] Ratelimiting
 
 # Create T3 App
