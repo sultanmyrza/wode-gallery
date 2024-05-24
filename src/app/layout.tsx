@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import "@uploadthing/react/styles.css";
 
 import TopNav from "@/app/_components/topnav";
+import { Toaster } from "@/components/ui/sonner";
 import { ClerkProvider } from "@clerk/nextjs";
 import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 import { GeistSans } from "geist/font/sans";
@@ -40,6 +41,7 @@ export default function RootLayout({
           </div>
           {modal}
           <div id="modal-root"></div>
+          <Toaster />
         </body>
       </html>
     </ClerkProvider>
